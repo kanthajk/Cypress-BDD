@@ -1,0 +1,28 @@
+{
+  "name": "cy-bdd",
+  "version": "1.0.0",
+  "description": "Cypress with Cucumber ",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:tests": "cypress run"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "kantha",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.2.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "prettier": "^2.3.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "@types/cypress-cucumber-preprocessor": "^4.0.1"
+  }
+}
